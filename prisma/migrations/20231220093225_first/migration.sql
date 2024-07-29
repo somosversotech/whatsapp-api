@@ -2,10 +2,10 @@
 CREATE TYPE "InstanceConnectionStatus" AS ENUM ('ONLINE', 'OFFLINE');
 
 -- CreateEnum
-CREATE TYPE "MessageSource" AS ENUM ('ios', 'android', 'web');
+CREATE TYPE "MessageSource" AS ENUM ('ios', 'android', 'web', 'unknown', 'desktop');
 
 -- CreateEnum
-CREATE TYPE "DeviceMessage" AS ENUM ('ios', 'android', 'web');
+CREATE TYPE "DeviceMessage" AS ENUM ('ios', 'android', 'web', 'unknown', 'desktop');
 
 -- CreateEnum
 CREATE TYPE "TypebotSessionStatus" AS ENUM ('open', 'closed', 'paused');
